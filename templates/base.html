@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Yuma's Portfolio</title>
+		<link rel='stylesheet' type='text/css' href='/static/css/stylesheet.css'/>
+		<script type='text/javascript' src='/static/js/jquery-1.10.2.min.js'></script>
+		<script type='text/javascript' src='/static/js/script.js'></script>
+	</head>
+
+	<body>
+		<div class='login-area'>
+			{% if user %}
+				{{user.name}} 
+				(<a class='login-link' href='/entry'>Blog Entry</a>
+				|
+				<a class='login-link' href='/logout'>Logout</a>)
+			{% else %}
+				<a class='login-link' href='/login'>Login</a>
+			{% endif %}
+		</div>
+		<div id='header-wrapper'>
+			<div id='header'>
+				<div id='logo'>
+					<h1>Yuma</h1>
+					<span>Yuma's Portfolio</span>
+				</div>
+				<div id='menu'>
+					<ul> 
+						<li><a href='/'>Home</a></li>
+						<li><a href='/about'>About</a></li>
+						<li><a href='/blog'>Blog</a></li>
+						<li><a href='/projects'>Projects</a></li>
+					</ul>
+				</div>		
+			</div>
+		</div>
+		<div id='content'>
+			{% block content %}
+			{% endblock %}
+		</div>
+	</body>
+<html>
+
+	

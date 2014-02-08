@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div id='entry' class='container-paragraph'>
+	<div class='entry-form'>
+		<h2>Login</h2>
+    		<form method="post">
+      			<table>
+        			<tr>
+          				<td>
+            				<input class='text' type="text" name="username" value="{{username}}" placeholder='好きな野菜'>
+          				</td>
+        			</tr>
+
+        			<tr>
+          				<td>
+            				<input class='text' type="password" name="password" value="" placeholder='好きなチップス'>
+          				</td>
+        			</tr>
+      			</table>
+
+      			<div class="error">
+        			{{error}}
+      			</div>
+
+      			<input class='button' type="submit">
+    		</form>
+	</div>
+</div>
+{% endblock %}

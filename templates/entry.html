@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div id='entry' class='container-paragraph'>
+	<div class='entry-form'>
+		<form method="post">
+			<input class='text' type="text" name="title" value="{{title}}" placeholder="Title">
+			<textarea name="content" placeholder="Content">{{content}}</textarea>
+			<div class="error">{{error}}</div>
+			<div class='row'>
+				<div class="12u"><input class='button' type='submit'></div>					
+			</div>
+		</form>
+	</div>
+</div>
+
+{% endblock %}
