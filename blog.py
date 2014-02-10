@@ -16,7 +16,7 @@ template_dir = os.path.join(os.path.dirname(__file__), 'templates')
 jinja_env = jinja2.Environment(loader = jinja2.FileSystemLoader(template_dir), autoescape = True)
 
 secret = 'yuma'
-front_pic = ['front1.JPG','front2.JPG','front3.JPG','front4.JPG']
+front_pic = ['front1.jpg','front2.jpg','front3.jpg','front4.jpg']
 
 def render_str(template, **params):
 	t = jinja_env.get_template(template)
