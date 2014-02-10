@@ -25,7 +25,7 @@
 		font-family: pt-serif;
 		font-size: 12pt;
 		font-weight: 400;
-		color: #FFF;
+		color: #1B1B1B;
 	}
 	
 	
@@ -163,7 +163,7 @@
 				-webkit-appearance: none;
 				display: block;
 				border: 0;
-				background: #fff;
+				background: #1B1B1B;
 				background: rgba(255,255,255,0.75);
 				width: 100%;
 				border-radius: 0.50em;
@@ -289,7 +289,9 @@
 	
 	.image-home {
 		display:block;
-		width:800px;
+		margin-left:auto;
+		margin-right:auto;
+		width:600px;
 		height:auto;
 	}
 
@@ -345,7 +347,7 @@
 	
 	ul.contact li a
 	{
-		color: #FFF;
+		color: #1B1B1B;
 	}
 	
 	ul.contact li a:before
@@ -357,7 +359,7 @@
 		line-height: 80px;
 		border-radius: 40px;
 		text-align: center;
-		color: #FFFFFF;
+		color: #1B1B1B;
 	}
 	
 
@@ -409,13 +411,13 @@
 
 	.title
 	{
-		margin-bottom: 3em;
+		margin-bottom: 1em;
 	}
 	
 	.title h2
 	{
-		font-size: 2.8em;
-		color: rgba(255,255,255,0.9);
+		font-size: 1em;
+		color: rgba(27,27,27,0.9);
 		text-align:center;
 	}
 	
@@ -435,7 +437,7 @@
 	#header-wrapper
 	{
 		overflow: hidden;
-		padding: 1em 0em;
+		padding: 0em 0em;
 		margin:0px auto;
 	}
 
@@ -476,7 +478,13 @@
 	{
 		color: rgba(255,255,255,0.8);
 	}
-	
+
+	#logo img
+	{
+		width:40px;
+		height:auto;
+		margin: 5px;
+	}
 	
 
 /*********************************************************************************/
@@ -508,7 +516,7 @@
 		font-weight: 600;
 		text-transform: uppercase;
 		outline: 0;
-		color: #FFF;
+		color: #1B1B1B;
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
@@ -566,7 +574,7 @@
 	{
 		overflow: hidden;
 		width: 500px;
-		padding: 3em 100px 0em 100px;
+		padding: 2em 100px 0em 100px;
 		text-align: center;
 		color: rgba(0,0,0,0.6);
 	}
@@ -878,7 +886,7 @@
 }
 
 .project-block h3 {
-	color: #FFF;
+	color: #1B1B1B;
 }
 
 .project-block p {

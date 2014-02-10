@@ -91,7 +91,7 @@
 				-webkit-appearance: none;
 				display: block;
 				border: 0;
-				background: #fff;
+				background: #333333;
 				background: rgba(255,255,255,0.75);
 				width: 100%;
 				border-radius: 0.50em;
@@ -120,7 +120,7 @@
 				form textarea:focus
 				{
 					box-shadow: 0 0 2px 1px #E0E0E0;
-					background: #fff;
+					background: #333333;
 				}
 				
 				form textarea
@@ -236,7 +236,7 @@
 	
 	ul.contact li a
 	{
-		color: #FFF;
+		color: #333333;
 	}
 	
 	ul.contact li a:before
@@ -248,7 +248,7 @@
 		line-height: 80px;
 		border-radius: 40px;
 		text-align: center;
-		color: #FFFFFF;
+		color: #333333;
 	}
 	
 
@@ -269,7 +269,7 @@
 		text-transform: uppercase;
 		font-weight: 400;
 		font-size: 1.2em;
-		color: #FFF;
+		color: #333333;
 	}
 	
 	.button:before
@@ -350,7 +350,7 @@
 	#logo a
 	{
 		text-decoration: none;
-		color: #FFF;
+		color: #333333;
 	}
 	
 	#logo span
@@ -364,6 +364,12 @@
 	#logo span a
 	{
 		color: rgba(255,255,255,0.8);
+	}
+
+	#logo img
+	{
+		width: 70%;
+		height: auto;
 	}
 	
 	
@@ -397,7 +403,7 @@
 		font-weight: 600;
 		text-transform: uppercase;
 		outline: 0;
-		color: #FFF;
+		color: #333333;
 	}
 	
 	#menu li:hover a, #menu li.active a, #menu li.active span
@@ -408,7 +414,7 @@
 	{
 		background: #67128F;
 		border-radius: 8px;
-		color: #FFF;
+		color: #333333;
 	}
 	
 
@@ -438,7 +444,7 @@
 	{
 		overflow: hidden;
 		padding: 8em 0em;
-		background: #FFF;
+		background: #333333;
 	}
 	
 	#wrapper4
@@ -651,7 +657,7 @@
 		border-radius: 100px;
 		border: 6px solid #67128F;
 		text-align: center;
-		color: #FFF;
+		color: #333333;
 		
 	}
 		
